@@ -19,16 +19,6 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Убираем подчеркивания для ссылок */
-  a {
-    text-decoration: none;
-  }
-
-  /* Для списков убираем маркеры */
-  ul {
-    list-style: none;
-  }
-
   /* Для кнопок убираем серый background */
   button {
     background-color: unset;

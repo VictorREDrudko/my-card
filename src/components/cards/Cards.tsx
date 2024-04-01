@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Card } from "./card/Card"
-import imgSahara from "../../assets/Rectangle.png"
+import imgSahara from "../../assets/Rectangle.webp"
 
 export const Cards = () => {
   return (
@@ -19,5 +19,4 @@ const StyledCards = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Inter", sans-serif;
 `
