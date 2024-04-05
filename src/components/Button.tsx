@@ -11,6 +11,6 @@ export const Button = styled.button.attrs((props)=>({
   background-color: ${props => props.isActive ? "#4E71FE" : "#FFFFFF"};
   font-size: 10px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 2;
   cursor: pointer;
 `
