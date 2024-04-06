@@ -13,4 +13,10 @@ export const Button = styled.button.attrs((props)=>({
   font-weight: 700;
   line-height: 2;
   cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: ${props => props.isActive ? "#FFFFFF" : "#4E71FE"};
+    color: ${props => props.isActive ? "#4E71FE" : "#FFFFFF"};
+  }
 `

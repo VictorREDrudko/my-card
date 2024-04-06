@@ -6,7 +6,7 @@ function App() {
   return (
     <Cards className="App">
       <Card imgPath={imgSahara} title={"Headline"} text={"Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen."} />
-      <Card imgPath={imgSahara} title={"Headline"} text={"Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen. Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen."} />
+      <Card imgPath={"https://beta.42clouds.com/images/ru-ru/articles/diving/1.jpg"} title={"Headline"} text={"Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen. Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen."} />
     </Cards>
   );
 }
@@ -20,4 +20,5 @@ const Cards = styled.div`
   align-items: stretch;
   flex-wrap: wrap;
   gap: 20px;
+  min-width: 320px;
 `

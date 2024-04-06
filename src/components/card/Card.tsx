@@ -38,6 +38,8 @@ const StyledCard = styled.div`
 const ImageCard = styled.img`
   display: block;
   border-radius: 10px;
+  max-height: 170px;
+  object-fit: cover;
 `
 
 const ContentWrapper = styled.div`
